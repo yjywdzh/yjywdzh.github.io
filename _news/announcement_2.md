@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I join LARKS Lab and supervised by Zhijiang GUO.
+I join LARKS Lab and supervised by Zhijiang GUO :smile:
