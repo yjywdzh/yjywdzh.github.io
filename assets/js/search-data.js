@@ -368,12 +368,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-formally-start-the-beginning-in-hkust-gz",
+      },{id: "news-i-formally-start-the-beginning-in-hkust-gz",
           title: 'I formally start the beginning in HKUST(GZ)!',
           description: "",
           section: "News",},{id: "news-i-join-larks-lab-and-supervised-by-zhijiang-guo-smile",
