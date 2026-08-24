@@ -70,7 +70,10 @@
   color: var(--global-text-color);
   font-size: 0.92rem;
   font-weight: 650;
-  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    background 160ms ease;
 
   &:hover {
     border-color: var(--global-theme-color);
@@ -182,7 +185,10 @@
   border: 1px solid var(--global-divider-color);
   border-radius: 18px;
   background: color-mix(in srgb, var(--global-card-bg-color) 94%, var(--global-theme-color));
-  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
 
   &:hover {
     border-color: color-mix(in srgb, var(--global-theme-color) 45%, transparent);

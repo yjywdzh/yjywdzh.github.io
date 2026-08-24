@@ -10,7 +10,6 @@ profile:
   image_circular: false
   more_info: Guangzhou, China
 
-
 selected_papers: true
 social: true
 
@@ -29,6 +28,7 @@ latest_posts:
 I am a Ph.D. student in the Information Hub at [HKUST (Guangzhou)](https://www.hkust-gz.edu.cn/), working with Chengwei Qin, [Zhijiang Guo](https://cartus.github.io/), and [Yutao Yue](https://ait.hkust-gz.edu.cn/archives/3729). I am also a research intern at Tencent Hunyuan.
 
 I study the internal mechanisms of large language models and turn that understanding into better post-training. I care about explanations that are **causal and testable**, especially for long-horizon reasoning and agentic reinforcement learning.
+
 </div>
 
 <div class="research-grid">

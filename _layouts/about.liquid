@@ -9,7 +9,9 @@ layout: default
         <h1>Jiayu <span>Yang</span><small>杨家宇</small></h1>
         <p class="hero-lead">Ph.D. student building a causal understanding of how language models reason, remember, and learn.</p>
         <div class="hero-actions">
-          <a class="hero-button primary" href="{{ '/assets/pdf/jiayu-yang-cv.pdf' | relative_url }}">Download CV <i class="fa-solid fa-arrow-down"></i></a>
+          <a class="hero-button primary" href="{{ '/assets/pdf/jiayu-yang-cv.pdf' | relative_url }}"
+            >Download CV <i class="fa-solid fa-arrow-down"></i
+          ></a>
           <a class="hero-button" href="{{ '/publications/' | relative_url }}">Publications <i class="fa-solid fa-arrow-right"></i></a>
         </div>
         {% if page.social %}
@@ -32,7 +34,10 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <div class="section-heading">
-        <div><span>Updates</span><h2>Latest news</h2></div>
+        <div>
+          <span>Updates</span>
+          <h2>Latest news</h2>
+        </div>
         <a href="{{ '/news/' | relative_url }}">View all <i class="fa-solid fa-arrow-right"></i></a>
       </div>
       {% include news.liquid limit=true %}
@@ -49,7 +54,10 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <div class="section-heading publications-heading">
-        <div><span>Research</span><h2>Selected publications</h2></div>
+        <div>
+          <span>Research</span>
+          <h2>Selected publications</h2>
+        </div>
         <a href="{{ '/publications/' | relative_url }}">View all <i class="fa-solid fa-arrow-right"></i></a>
       </div>
       {% include selected_papers.liquid %}
