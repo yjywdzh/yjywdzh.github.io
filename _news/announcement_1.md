@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I formally start the beginning in HKUST(GZ)!
+I started my graduate studies in Artificial Intelligence at HKUST (Guangzhou).

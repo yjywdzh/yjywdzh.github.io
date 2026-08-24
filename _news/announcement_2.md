@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I join LARKS Lab and supervised by Zhijiang GUO :smile:
+I joined LARK Lab and began working with [Zhijiang Guo](https://cartus.github.io/) on LLM reasoning and mechanistic interpretability.

@@ -2,22 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: #
+subtitle: Mechanistic interpretability · Latent reasoning · Learning agents
 
 profile:
   align: right
   image: me.png
-  image_circular: false # crops the image to make it circular
-  more_info: Life is short. - 人生苦短。
+  image_circular: false
+  more_info: Guangzhou, China
 
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: false
+  limit: 6
 
 latest_posts:
   enabled: false
@@ -25,8 +25,26 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am an **M.Phil. student** in AI Thrust of [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/) of 3rd Cohort.
+<div class="intro-copy" markdown="1">
+I am a Ph.D. student in the Information Hub at [HKUST (Guangzhou)](https://www.hkust-gz.edu.cn/), working with Chengwei Qin, [Zhijiang Guo](https://cartus.github.io/), and [Yutao Yue](https://ait.hkust-gz.edu.cn/archives/3729). I am also a research intern at Tencent Hunyuan.
 
-Currently, I am supervised by [Prof. Yutao YUE](https://ait.hkust-gz.edu.cn/archives/3729) and [Prof. Zhijiang GUO](https://cartus.github.io/). Before that, I obtained my **Honors B.Sc. in Statistics** from [HONGSHEN Honors School](https://hshc.cqu.edu.cn/) of [Chongqing University](https://www.cqu.edu.cn/) in 2024, it was an amazing experience.
+I study the internal mechanisms of large language models and turn that understanding into better post-training. I care about explanations that are **causal and testable**, especially for long-horizon reasoning and agentic reinforcement learning.
+</div>
 
-I mainly focus on *LLM Mechanism Interpretability* and *XAI*. If you are interested in collaborating with me, please feel free to [**contact**](mailto:jyang729@connect.hkust-gz.edu.cn).
+<div class="research-grid">
+  <div class="research-card">
+    <span class="research-index">01</span>
+    <h3>Mechanistic interpretability</h3>
+    <p>Tracing factual recall and knowledge editing through concept-level and neuron-level mechanisms.</p>
+  </div>
+  <div class="research-card">
+    <span class="research-index">02</span>
+    <h3>Latent reasoning</h3>
+    <p>Making hidden-state recurrence trainable with on-policy RL and open to causal intervention.</p>
+  </div>
+  <div class="research-card">
+    <span class="research-index">03</span>
+    <h3>Learning agents</h3>
+    <p>Understanding credit assignment and policy behavior in long-horizon software tasks.</p>
+  </div>
+</div>
