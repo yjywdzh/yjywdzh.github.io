@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "Education, research experience, selected projects, and academic service. Download the PDF using the icon above.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "nav-awards",
           title: "awards",
           description: "",
@@ -375,14 +382,20 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-i-formally-start-the-beginning-in-hkust-gz",
-          title: 'I formally start the beginning in HKUST(GZ)!',
+      },{id: "news-i-started-my-graduate-studies-in-artificial-intelligence-at-hkust-guangzhou",
+          title: 'I started my graduate studies in Artificial Intelligence at HKUST (Guangzhou).',
           description: "",
-          section: "News",},{id: "news-i-join-larks-lab-and-supervised-by-zhijiang-guo-smile",
-          title: 'I join LARKS Lab and supervised by Zhijiang GUO :smile:',
+          section: "News",},{id: "news-i-joined-lark-lab-and-began-working-with-zhijiang-guo-on-llm-reasoning-and-mechanistic-interpretability",
+          title: 'I joined LARK Lab and began working with Zhijiang Guo on LLM reasoning...',
           description: "",
-          section: "News",},{id: "news-my-paper-ace-attribution-controlled-knowledge-editing-for-multi-hop-factual-recall-is-accepted-at-iclr2026-smile",
-          title: 'My paper ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall is accepted at...',
+          section: "News",},{id: "news-our-paper-ace-attribution-controlled-knowledge-editing-for-multi-hop-factual-recall-was-accepted-to-iclr-2026",
+          title: 'Our paper ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall was accepted to...',
+          description: "",
+          section: "News",},{id: "news-i-joined-tencent-hunyuan-as-a-research-intern-working-on-llm-reasoning-and-world-models",
+          title: 'I joined Tencent Hunyuan as a research intern, working on LLM reasoning and...',
+          description: "",
+          section: "News",},{id: "news-three-recent-milestones-switch-was-accepted-to-emnlp-2026-dynamic-v2c-was-accepted-to-eccv-2026-and-cat-was-published-in-tmlr",
+          title: 'Three recent milestones: SWITCH was accepted to EMNLP 2026, Dynamic-V2C was accepted to...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -434,21 +447,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6A%79%61%6E%67%37%32%39@%63%6F%6E%6E%65%63%74.%68%6B%75%73%74-%67%7A.%65%64%75.%63%6E", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://github.com/yjywdzh", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -456,13 +462,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
